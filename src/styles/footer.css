@@ -1,0 +1,25 @@
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    letter-spacing:1.5px;
+    padding: 1.5rem;
+    font-size: 1rem;
+}
+
+
+/* responsive styles */
+
+@media (max-width:768px){
+    #footer{
+        padding: 1rem;
+        font-size: 0.875rem;
+    }
+}
+
+@media (min-width:768px){
+    #footer{
+        padding: 1.5rem;
+        font-size: 1.12rem;
+    }
+}
